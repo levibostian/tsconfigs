@@ -20,6 +20,10 @@ npm install --D @levibostian/tsconfigs
 
 * That's it! If you want to override anything from the base config, feel free to add config options to your tsconfig file. 
 
+# node14
+
+tsconfig designed for nodejs 14 projects. Based off of [community tsconfig base](https://www.npmjs.com/package/@tsconfig/node14) with my own changes. 
+
 # node12 
 
 tsconfig designed for nodejs 12 projects. Based off of [community tsconfig base](https://www.npmjs.com/package/@tsconfig/node12) with my own changes. 
