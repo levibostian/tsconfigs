@@ -12,13 +12,25 @@ Opinionated `tsconfig.json` files used for Typescript projects.
 npm install --D @levibostian/tsconfigs
 ```
 
-* Use the tsconfig file that you wish in your project:
+* Edit your project's `tsconfig.json` file to extend one of the bases of this project. 
+
+*Note: There are some config options in your `tsconfig.json` that a base config file cannot support. Some of those have been documented in the code sample below so make sure that you include those.*
 
 ```json
 {
-    "extends": "@levibostian/tsconfigs/node12/tsconfig.json"
+  "extends": "@levibostian/tsconfigs/node14/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "paths": {
+      "*": ["node_modules/*", "@types/*"]
+    },
+    "typeRoots": ["@types", "./node_modules/@types"]
+  },
+  "include": ["app/**/*", "@types/**/*"]
 }
 ```
+
+*Tip: It's recommended you run `npx tsc` in your project after setting up your `tsconfig.json` file changes to make sure it's working as you expect. 
 
 * That's it! If you want to override anything from the base config, feel free to add config options to your tsconfig file. 
 
