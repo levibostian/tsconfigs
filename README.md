@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/@levibostian/tsconfigs.svg?style=flat-square)](https://www.npmjs.org/package/@levibostian/tsconfigs)
+
 # tsconfigs
 
 Opinionated `tsconfig.json` files used for Typescript projects. 
