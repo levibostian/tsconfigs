@@ -38,6 +38,10 @@ npm install --D @levibostian/tsconfigs
 
 tsconfig designed for nodejs 14 projects. Based off of [community tsconfig base](https://www.npmjs.com/package/@tsconfig/node14) with my own changes. 
 
+# node14-npm
+
+Like `node14`, but designed for npm modules published to somewhere like npmjs.com. 
+
 # node12 
 
 tsconfig designed for nodejs 12 projects. Based off of [community tsconfig base](https://www.npmjs.com/package/@tsconfig/node12) with my own changes. 
