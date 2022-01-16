@@ -18,7 +18,7 @@ npm install --D @levibostian/tsconfigs
 
 ```json
 {
-  "extends": "@levibostian/tsconfigs/node14/tsconfig.json",
+  "extends": "@levibostian/tsconfigs/node16/tsconfig.json",
   "compilerOptions": {
     "outDir": "dist",
     "paths": {
@@ -33,6 +33,10 @@ npm install --D @levibostian/tsconfigs
 *Tip: It's recommended you run `npx tsc` in your project after setting up your `tsconfig.json` file changes to make sure it's working as you expect. 
 
 * That's it! If you want to override anything from the base config, feel free to add config options to your tsconfig file. 
+
+# node16
+
+tsconfig designed for nodejs 16 projects. Based off of [community tsconfig base](https://www.npmjs.com/package/@tsconfig/node16) with my own changes. 
 
 # node14
 
